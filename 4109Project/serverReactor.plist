@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EVENT.1.TYPE</key>
+	<string>TEXT</string>
+	<key>EVENT.1.CLASS</key>
+	<string>ServerTextHandler</string>
+	<key>EVENT.1.METHOD</key>
+	<string>handleEvent:</string>
+	<key>EVENT.2.TYPE</key>
+	<string>localBroadcast</string>
+	<key>EVENT.2.CLASS</key>
+	<string>SecurityEventHandler</string>
+	<key>EVENT.2.METHOD</key>
+	<string>handleLocalBroadcast:</string>
+	<key>EVENT.3.TYPE</key>
+	<string>globalBroadcast</string>
+	<key>EVENT.3.CLASS</key>
+	<string>SecurityEventHandler</string>
+	<key>EVENT.3.METHOD</key>
+	<string>handleGlobalBroadcast:</string>
+	<key>EVENT.4.TYPE</key>
+	<string>peerList</string>
+	<key>EVENT.4.CLASS</key>
+	<string>PeerListHandler</string>
+	<key>EVENT.4.METHOD</key>
+	<string>handlePeerList:</string>
+</dict>
+</plist>
